@@ -139,16 +139,7 @@ const shareOnLinkedIn = () => {
   return (
     <>
 
-   <Helmet>
-      <title>The AI Illusion: B2B Marketers Need Better Questions, Not More Hype</title>
-      <meta property="og:title" content="The AI Illusion: B2B Marketers Need Better Questions, Not More Hype" />
-      <meta property="og:description" content="Key insights on AI in B2B Marketing: 1) Bad Data = Bad AI - first-party data is critical, 2) Beware of AI-washing in vendor tools, 3) Targeting precision matters as budgets shrink." />
-      <meta property="og:image" content="" />
-      <meta property="og:url" content={currentUrl} />
-      <meta property="og:type" content="article" />
-      <meta property="og:site_name" content="Compare Bazaar" />
-      <meta name="twitter:card" content="summary_large_image" />
-    </Helmet>
+
 
       <div className="relative w-full h-64 md:h-80 lg:h-96 bg-gray-900 overflow-hidden">
         <div 
