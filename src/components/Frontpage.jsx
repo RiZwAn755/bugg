@@ -20,7 +20,7 @@ export default function BlogLayout() {
       readTime: "3 min read",
       category: "Marketing",
       imageUrl: "https://media.licdn.com/dms/image/v2/D5612AQFX-bPOKftqGw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1732097572633?e=2147483647&v=beta&t=ThmlZP9VCygkzqo0yHB9hi_RuokqGdX6OxAh9G6oWxQ",
-      slug: "/blog/storytelling-b2b-marketing"
+   slug: "/blog1"
     },
     {
       id: 3,
