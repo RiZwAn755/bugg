@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 
 const Blog1 = () => {
@@ -138,7 +138,14 @@ const shareOnLinkedIn = () => {
 
   return (
     <>
-
+  <Helmet>
+        <title>Blog 1 Title</title>
+        <meta property="og:title" content="Blog 1 Title" />
+        <meta property="og:description" content="This is Blog 1" />
+        <meta property="og:image" content="https://bugg-ebon.vercel.app/blog1/images/blog1.jpg" />
+        <meta property="og:url" content="https://bugg-ebon.vercel.app/blog1" />
+        <meta property="og:type" content="website" />
+      </Helmet>
 
 
       <div className="relative w-full h-64 md:h-80 lg:h-96 bg-gray-900 overflow-hidden">
