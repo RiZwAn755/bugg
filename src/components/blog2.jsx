@@ -143,7 +143,7 @@ const shareOnLinkedIn = () => {
         <title>Blog 2 Title</title>
         <meta property="og:title" content="Blog 2 Title" />
         <meta property="og:description" content="This is Blog 2" />
-        <meta property="og:image" content="https://bugg-ebon.vercel.app/blog2/images/imgg.webp" />
+        <meta property="og:image" content="https://bugg-ebon.vercel.app/images/imgg.webp" />
         <meta property="og:url" content="https://bugg-ebon.vercel.app/blog2" />
         <meta property="og:type" content="website" />
       </Helmet>
